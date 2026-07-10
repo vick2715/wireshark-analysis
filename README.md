@@ -1,4 +1,3 @@
-[wireshark-analysis-README.md](https://github.com/user-attachments/files/29909552/wireshark-analysis-README.md)
 # 📡 Wireshark Traffic Analysis — SYN Flood Detection
 
 > Análise real de tráfego TCP/HTTP com identificação de ataque de Negação de Serviço (DoS) via SYN Flood.
