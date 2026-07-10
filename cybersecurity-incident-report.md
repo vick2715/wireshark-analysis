@@ -114,8 +114,7 @@ O servidor passa a responder apenas com `[RST, ACK]` para todas as novas conexõ
 
 | Arquivo | Descrição |
 |---|---|
-| `Wireshark_TCP_HTTP_log_-_TCP_log.pdf` | Log completo da captura de tráfego TCP/HTTP |
-| `Cybersecurity_incident_report.pdf` | Template original do relatório de incidente |
+| [Wireshark_TCP_HTTP_log_-_TCP_log.pdf](./Wireshark_TCP_HTTP_log_-_TCP_log.pdf) | Log completo da captura de tráfego TCP/HTTP |
 
 ---
 
