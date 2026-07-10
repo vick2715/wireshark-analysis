@@ -35,8 +35,7 @@ Analisar logs de captura de tráfego de rede para identificar comportamentos an�
 ```
 wireshark-analysis/
 ├── cybersecurity-incident-report.md   ← Relatório completo do incidente
-├── logs/
-│   └── TCP_HTTP_log.pdf               ← Log original da captura Wireshark
+│── TCP_HTTP_log.pdf                   ← Log original da captura Wireshark
 └── README.md
 ```
 
