@@ -43,7 +43,7 @@ Cliente                          Servidor
    |                                 |
    |──── [SYN] ─────────────────────>|  1️⃣ Cliente solicita conexão
    |                                 |
-   |<─── [SYN, ACK] ────────────────|  2️⃣ Servidor confirma e reserva recursos
+   |<─── [SYN, ACK]  ────────────────|  2️⃣ Servidor confirma e reserva recursos
    |                                 |
    |──── [ACK] ─────────────────────>|  3️⃣ Cliente confirma — conexão estabelecida!
    |                                 |
@@ -106,7 +106,6 @@ O servidor passa a responder apenas com `[RST, ACK]` para todas as novas conexõ
 | **Bloqueio de IP** | Bloquear imediatamente `203.0.113.0` via firewall/ACL |
 | **Firewall WAF** | Implementar Web Application Firewall com proteção contra DoS |
 | **SIEM Alert** | Criar regra no SIEM para alertar quando um único IP enviar >50 SYN/s |
-| **Anycast / CDN** | Distribuir tráfego via CDN para absorver volumetria de ataques futuros |
 
 ---
 
